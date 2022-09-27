@@ -30,11 +30,9 @@ int					numlen(unsigned long num)
 
 void				ft_rev(char *tab, int size)
 {
-	int i;
 	int temp;
 	int turn;
 
-	i = 0;
 	turn = size / 2;
 	while (turn > 0)
 	{

@@ -1,7 +1,7 @@
 NAME		=	libftprintf.a
 DIRSRC		=	./
 DIROBJ		=	./
-INCLUDE		=	ft_printf.h
+INCLUDE		=	./
 SRC			=	ft_itoa_base.c ft_putnbr.c ft_putstr.c ft_printf.c ft_atoi.c ft_code.c ft_code2.c ft_putils.c ft_putnbr_base.c
 
 OBJB		=	$(SRCB:.c=.o)
